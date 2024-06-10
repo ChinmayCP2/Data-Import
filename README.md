@@ -21,4 +21,8 @@ FROM 'Path'
 DELIMITER '\t';
 ```
 To Export data from postgresql
-copy table to 'path' delimiter  ',' CSV HEADER;
+```sql
+copy table
+ to 'path'
+ delimiter  ',' CSV HEADER;
+```
